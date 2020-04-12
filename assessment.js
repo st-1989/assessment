@@ -92,6 +92,6 @@ function assessment (userName) {
 }
 
 console.assert(
-  assessment('真一郎') === assessment('真一郎'),
+  assessment('賢二') === assessment('賢二'),
   '診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。'
 );
